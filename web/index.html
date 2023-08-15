@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>roomsBuckets</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+     
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+<!--        navbar contet      -->
+  <div>  
+  <nav class="navbarWeb">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="index.html"><img class="logo"> </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="act"><a href="index.html">Hotels</a></li>
+        <li><a href="">Reservation</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="signin.jsp">Log in</a></li>
+        <li><a href="SignUp.jsp">Sign up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+        
+<!--     Search Box for booking hotels  -->
+       
+        <div class="search-box">
+                <div class="search-bar" role="form">
+                    <form >
+                    <input type="text" name="searchHotels" placeholder="Enter Your Destination or property ">
+                    <input type="date" name="checkin"  placeholder="Check-in Date ">
+                    <input type="date" name="checkout"  placeholder="Check-out Date "><br><br>
+		  
+			<span class="select-arrow"></span>
+			<span class="form-label">Adults</span>
+			<select name="adults">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+                        <option>4</option>
+			<option>5</option>
+			</select>
+			<span class="select-arrow"></span>
+			<span class="form-label">Children</span>
+			<select name="children">
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+                        <option>3</option>
+			<option>4</option>
+			</select>
+			<span class="select-arrow"></span>
+
+                    </form>
+                </div><br>
+             <button type="button" class="buttonSearch">Find a Hotel
+		</button>
+            </div> 
+
+<!--      main title part of website    -->
+        
+<div class="Main-title">
+          <div class="container">
+              <div class="main-heading">
+                  <h1 class="title col-md-7 text-right" style="font-weight: bold; font-family: inherit;">Discover</h1>
+                  <h2 class="sub-title">Luxury hotels </h2>
+                  <h4 class="sub-sub-title">from all around the world </h4>
+              </div>
+              
+          </div>
+      </div>
+        
+<!--      carousel    -->
+
+     <div id="myCarousel-14" class="carousel slide" data-ride="carousel">
+   
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel-14" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel-14" data-slide-to="1"></li>
+    <li data-target="#myCarousel-14" data-slide-to="2"></li>
+    <li data-target="#myCarousel-14" data-slide-to="3"></li>
+    <li data-target="#myCarousel-14" data-slide-to="4"></li>
+    <li data-target="#myCarousel-14" data-slide-to="5"></li>
+    <li data-target="#myCarousel-14" data-slide-to="6"></li>
+    <li data-target="#myCarousel-14" data-slide-to="7"></li>
+  </ol>
+   
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/firstPic.jpg" alt="Chania">
+      
+    </div>
+
+    <div class="item">
+      <img src="img/pic5.jpg" alt="orange bedroom" width="550">
+      
+    </div>
+
+    <div class="item">
+      <img src="img/fourth.jpg" alt="home front"> 
+    </div>
+
+    <div class="item">
+      <img src="img/pic2.jpg" alt="home" width="550">
+    </div>
+      
+      <div class="item">
+      <img src="img/hotels_chose2.jpg" alt="home" width="550">
+    </div>
+      
+       <div class="item">
+      <img src="img/top.jpg" alt="home" width="550">
+    </div>
+      
+       <div class="item">
+      <img src="img/h9.jpg" alt="home" width="550">
+    </div>
+      
+      <div class="item">
+      <img src="img/swissotel-1.jpg" alt="home" width="500">
+    </div>
+  </div>
+  
+<!--
+  <a class="left carousel-control" href="#myCarousel-14" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel-14" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>-->
+</div>
+<br>
+
+<!--
+<div class="header">
+
+<h1>DESTINATION SPOTLIGHT View our best deals and promotions below!</h1>
+<img src="offers-icon-20735.png" alt="logo" />
+</div>-->
+<div class="infoabout"> <img class="imginfo" src="img/sa.png" ></div>
+
+<div class="offer">
+  <div class="container2">
+            <div class="offer-content">
+                <div class="discount">
+                    35% off
+                </div>
+                <h5 class="hotel-name"></h5>
+              <div class="hotel-rating">
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star-half rating"></i>
+                </div>
+                    <div>&nbsp;</div>
+                <p class="paragraph">
+                     Destination spotlight View our best deals and promotions below! 
+                </p>
+                <a href="#" class="btn btn-gradient">Redeem offer
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+              </a>
+            </div>  
+<!--            <div class="offer-content2">
+                <div class="discount">
+                    35% off
+                </div>
+                <h5 class="hotel-name"></h5>
+              <div class="hotel-rating">
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star rating"></i>
+                    <i class="fas fa-star-half rating"></i>
+                </div>
+                    <div>&nbsp;</div>
+                <p class="paragraph">
+                     Destination spotlight View our best deals and promotions below! 
+                </p>
+                <a href="#" class="btn btn-gradient">Redeem offer
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+              </a>
+            </div>  -->
+      
+       <div class="packages-wrapper">
+          <div class="packages-card packages__card packages__card--wide">
+            <div class="packages-image">
+              <div
+                class="packages-image__wrapper packages-image__wrapper-1" style="height: 250px; width: 250px;"
+              ></div>
+              <span class="packages-image__offer packages-image__offer--wide"
+                >New Year Offer</span
+              >
+            </div>
+            <div class="packages-info">
+              <div class="packages-stars packages-info__stars">
+                <img
+                  class="packages-stars__star"
+                  src="img/star.svg"
+                  alt="Star"
+                />
+                <img
+                  class="packages-stars__star"
+                  src="img/star.svg"
+                  alt="Star"
+                />
+                <img
+                  class="packages-stars__star"
+                  src="img/star.svg"
+                  alt="Star"
+                />
+                <img
+                  class="packages-stars__star"
+                  src="img/star.svg"
+                  alt="Star"
+                />
+                <img
+                  class="packages-stars__star"
+                  src="img/star.svg"
+                  alt="Star"
+                />
+              </div>
+              <h3 class="packages-info__title packages-info__title--wide">
+                Hotel Blue Haven
+              </h3>
+<div
+                class="packages-booking packages-info__booking packages-info__booking--wide"
+              >
+            <div class="packages-booking__text">
+                  <img
+                    class="packages-booking__icon"
+                    src="img/map-pin-icon.svg"
+                    alt="Icon: map-pin"
+                  />
+                  <span class="packages-booking__description"
+                    >1749 Wheeler Ridge Delaware</span
+                  >
+            </div><br>
+                <div class="packages-booking__text">
+                  <img
+                    class="packages-booking__icon"
+                    src="img/user-icon.svg"
+                    alt="Icon: user"
+                  />
+                  <span class="packages-booking__description">2 x Guests</span>
+                </div>
+                <div class="packages-booking__text">
+                  <img
+                    class="packages-booking__icon"
+                    src="img/home-icon.svg"
+                    alt="Icon: home"
+                  />
+                  <span class="packages-booking__description">1 x Room</span>
+                </div>
+              </div>
+              <!-- /.packages-booking -->
+              <div
+                class="packages-book packages-info__book packages-info__book--wide"
+              >
+                <div class="packages-prices">
+                  <span
+                    class="packages-prices__price packages-prices__price--old"
+                    >$ 10,500</span
+                  >
+                  <span
+                    class="packages-prices__price packages-prices__price--new"
+                    >$ 8,500</span
+                  >
+                </div>
+                <button
+                  data-toggle="modal"
+                  data-href="#booking-modal"
+                  class="packages-book__button"
+                >
+                  Book Now
+                </button>
+              </div>
+              <!-- /.packages-book -->
+            </div>
+          </div></div>
+       
+   </div>
+   
+</div>
+
+<section class="left">
+    <nav>
+              <ul> 
+                     <li><a href="#">Room booking</a></li>
+                     <li><a href="#">Weekend deals</a></li>
+                     <li><a href="#">Honeymoon</a></li>
+                     <li><a href="#">Latest News</a></li>
+                     <li><a href="#">About us</a></li>
+                     <li><a href="#">Contact us</a></li>
+             </ul>
+    </nav>
+       </section>
+
+
+  <section class="right">
+<a href=""> <img class="asia" src="img/46826821_336978173522434_9161314617035587584_n.jpg"></a>
+      <a href=""> <img class="europe" src="img/47104187_354309851798839_6851134734529986560_n.jpg"></a>
+       <a href=""> <img class="south" src="img/47223851_530691460741982_4823726359102619648_n.jpg"></a>
+        <a href=""><img class="north" src="img/47091858_1499997330102837_3810117487450652672_n.jpg"></a>
+        <a href=""> <img class="africa" src="img/46945577_327522344745559_5475429836010815488_n.jpg"></a>
+        <a href=""><img class="australia" src="img/46846518_2272580879631215_5878654040207785984_n.jpg"> </a>
+        <a href=""> <img class="europe" src="img/46831434_571625606624443_5599723410713214976_n.jpg"></a>
+       <a href=""> <img class="south" src="img/46837485_2205539239710936_4596480167752237056_n.jpg"></a>
+        <a href=""><img class="north" src="img/46908419_1804745392969695_1920604749367869440_n.jpg"></a>
+        <a href=""> <img class="africa" src="img/46916774_944834602571532_5489142399571591168_n.jpg"></a>
+        <a href=""><img class="australia" src="img/46957287_209783619898225_9171268938183475200_n.jpg"> </a>
+          <a href=""> <img class="south" src="img/47033958_276071359717821_3041241414307414016_n.jpg"></a>
+       
+    </section>
+
+        
+<footer class="footer">
+      
+          <div class="footer-content">
+              <div class="footer-content-brand">
+                  <a href="index.html" class="logo">
+                      <img class="logo-image" src="img/74deecf7-6624-430b-bbad-fb564dec681b_200x200.png" alt="">
+                  </a>
+                  <div class="paragraph">
+                       HERE TO HELP YOU MEET THE WORLD Stay in the heart of the action and discover a world beyond the tourist brochure.
+                  </div>
+              </div>
+              <div class="social-media-wrap">
+                  <h4 class="footer-heading">Follow us</h4>
+                  <div class="social-media">
+                    <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="sm-link"><i class="fab fa-tripadvisor"></i></a>  
+                  </div>
+              </div>
+          </div>
+     
+</footer>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script src="JS/jquery-3.3.1.slim.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    
+    
+    </body>
+</html>

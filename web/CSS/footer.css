@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2021, 8:27:37 AM
+    Author     : Nada Abdelrahman
+*/
+
+/* ------------- Footer section styles------------- */
+
+.footer{
+    overflow-x: hidden;
+    margin-top: 325px;
+   margin-left: -190px;
+    width:1530px;
+    height: 150px;
+
+    background-color: black;
+    color: #fff;
+    }
+    .footer-content{
+    display: flex;
+    margin-top: 30px;
+    height: 100px;
+    margin-left: 170px;
+    }
+    .footer-content-brand{
+        margin-bottom: 10px;
+        flex: 0 0 60%;
+    }
+   
+    .footer-heading{
+       
+    }
+    .social-media-wrap{
+        flex: 0 0 40%;
+        margin-left: 2.5rem; 
+    }
+
+
+
+.footer-content-brand{
+    margin-bottom: 5rem;
+    margin-top: 50px;
+    margin-right: 28px;
+    height: 50px;
+}
+
+.footer .paragraph{
+    color: inherit;
+    margin-right: auto;
+    font-size: 14px;
+    padding-top: 0px;
+    height: 60px;
+    margin-top: -10px;
+    
+}
+
+.footer-heading{
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.social-media{
+    display: flex;
+}
+
+.sm-link{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 1rem;
+    transition: background-color .7s;
+}
+
+.sm-link:hover{
+    background-color: black;
+    color: blue;
+}
+
+.sm-link i{
+    margin: auto;
+}
+.mainHeader{
+  padding: 2px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+@media screen and (max-width: 800px) {
+  .footer, .footer-content, .footer-content-brand {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
